@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Streng Geheim</string>
+    <string name="action_settings">Settings</string>
+    <string name="encode">Encode</string>
+    <string name="decode">Decode</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about_us">About Us</string>
+
+    <string-array name="nav_item_activity_titles">
+        <item>Streng Geheim</item> <!-- Home -->
+        <item>Settings</item>
+    </string-array>
+
+    <string name="title_activity_about_us">About us</string>
+
+    <string name="description_upload_image">Tap here to select an image</string>
+    <string name="password_edit_text_hint">Optional password, minimum 8 characters</string>
+    <string name="password_to_decode_hint">Enter password to get secret text</string>
+    <string name="enter_text">Enter Text</string>
+    <string name="select_image_title">Select Cover Image</string>
+    <string name="b_secret_text_encrypt">Encrypt</string>
+    <string name="take_image_dialog">Take Photo</string>
+    <string name="select_image_dialog">Select Image</string>
+    <string name="image_is_saved">Stego Image is already saved on device</string>
+    <string name="stego_image_title">Result Image</string>
+    <string name="b_stego_image_save">Save In Mobile\'s Database</string>
+    <string name="b_stego_image_share">Share</string>
+    <string name="save_image_success">Stego Image was successfully saved !</string>
+    <string name="save_image_error">Failure during image saving</string>
+    <string name="cancel">Cancel</string>
+    <string name="secret_text_empty">Text field is empty !</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="cover_image_empty">Please, select cover image</string>
+    <string name="compress_error">Failure during image compression</string>
+    <string name="secret_image_empty">Please, select secret image</string>
+    <string name="secret_message_long">Secret message is too long</string>
+    <string name="encrypted_success">Message is successfully encrypted !</string>
+    <string name="encrypted_fail">Failure during message encryption</string>
+    <string name="decrypt_success">Message is successfully decrypted</string>
+    <string name="decrypt_fail">Failure during message decryption</string>
+    <string name="stego_image_not_selected">Stego Image is not selected !</string>
+    <string name="non_stego_image_selected">Selected image is not a proper Stego Image</string>
+    <string name="decrypt_result_title">Secret Message</string>
+
+
+
+    <string name="runtime_permissions_txt">Please enable ALL permissions from app settings</string>
+    <string name="app_logo_content_description">Image for app logo</string>
+    <string name="edit_text_encode_hint">Enter message to encode here</string>
+    <string name="encode_text_preview">Text preview.</string>
+    <string name="btn_browse">TAP HERE TO SELECT FILE</string>
+    <string name="cancel_button_text">CANCEL</string>
+    <string name="ok_button_text">OK</string>
+    <string name="close_button_text">CLOSE</string>
+    <string name="copy_button_text">COPY</string>
+
+    <string name="error_no_text">Please enter text to encode</string>
+    <string name="error_no_image">Please select image</string>
+    <string name="error_fail_message">Failed!</string>
+    <string name="error_encoding_failed">Encoding is failed</string>
+    <string name="message_encoding_success">Encoding is compeleted</string>
+    <string name="message_decoding_success">Decoding is compeleted</string>
+    <string name="error_decoding_failed">Decoding is failed</string>
+    <string name="message_image_selected">Image selected</string>
+    <string name="decoded_text">Decoded Text</string>
+    <string name="error_no_encoded_text">No text encoded to this image</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="nothing_to_copy">Nothing to copy</string>
+    <string name="msg_install_file_manager">Please install a File Manager</string>
+
+
+    <string name="prefs_category_hashing">Password Hashing</string>
+    <string name="list_prefs_summ_hashing">Choose hashing algorithm to protect password</string>
+    <string name="list_prefs_title_hashing">Choose Hashing algorithm</string>
+    <string name="list_prefs_key_hashing">hashing_algo</string>
+    <string name="list_prefs_default_hashing">SHA-1</string>
+    <string name="prefs_category_encryption">Text Encryption</string>
+    <string name="list_prefs_summ_encryption">Choose encryption algorithm to encrypt message</string>
+    <string name="list_prefs_title_encryption">Choose Encryption algorithm</string>
+    <string name="list_prefs_key_encryption">encryption_algo</string>
+    <string name="list_prefs_default_encryption">AES</string>
+</resources>

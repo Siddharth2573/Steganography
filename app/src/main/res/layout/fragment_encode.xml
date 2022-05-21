@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/load_image_layout_margin_top"
+        android:background="@drawable/layout_border">
+
+        <ImageView
+            android:id="@+id/loadImage"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/load_image_encode"
+            android:gravity="center"
+            android:paddingTop="2sp"
+            android:contentDescription="@string/description_upload_image"
+            android:adjustViewBounds ="true"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/imageTextMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom|center"
+            android:gravity="center"
+            android:text="@string/description_upload_image"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_load_image_size"
+            app:drawableStartCompat="@drawable/ic_open_image" />
+    </FrameLayout>
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/encodePasswordLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12sp"
+            android:layout_marginRight="12sp"
+            android:layout_marginTop="12sp"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/passwordToEncode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password_edit_text_hint"
+                android:maxLength="16"
+                android:inputType="textPassword"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/textInputButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8sp"
+            android:layout_marginBottom="10sp"
+            android:layout_marginLeft="12sp"
+            android:layout_marginRight="12sp"
+            android:background="@drawable/button_background"
+            android:text="@string/enter_text"
+            android:textColor="@color/colorButtonText"
+            android:textSize="@dimen/button_text_size" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/encodeImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8sp"
+            android:layout_marginBottom="10sp"
+            android:layout_marginLeft="12sp"
+            android:layout_marginRight="12sp"
+            android:background="@drawable/button_background"
+            android:text="ENCODE IMAGE IN IMAGE"
+            android:textColor="@color/colorButtonText"
+            android:textSize="@dimen/button_text_size" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/encodeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12sp"
+            android:layout_marginRight="12sp"
+            android:background="@drawable/button_background"
+            android:text="@string/encode"
+            android:textColor="@color/colorButtonText"
+            android:textSize="@dimen/button_text_size" />
+
+    </LinearLayout>
+
+</LinearLayout>
